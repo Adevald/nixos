@@ -1,0 +1,5 @@
+{
+  import = [
+    ./administration/zsh.nix  
+  ];
+}
