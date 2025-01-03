@@ -1,0 +1,56 @@
+### https://alacritty.org/config-alacritty.html
+
+# custom_cursor_colors = true
+live_config_reload = true
+
+[bell]
+animation = "EaseOutExpo"
+color = "0xffffff"
+duration = 0
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[window]
+decorations = "None"
+startup_mode = "Maximized"
+dynamic_padding = false
+opacity = 1.0
+
+[window.dimensions]
+columns = 100
+lines = 85
+
+[window.padding]
+x = 0
+y = 0
+
+[font]
+size = 10.0
+normal.family = 'CodeNewRoman Nerd Font'
+bold.family =  'CodeNewRoman Nerd Font'
+italic.family =  'CodeNewRoman Nerd Font'
+bold_italic.family = 'CodeNewRoman Nerd Font'
+
+[cursor]
+style = "Block"
+unfocused_hollow = true
+
+[debug]
+log_level = "OFF"
+persistent_logging = false
+print_events = false
+render_timer = false
+
+[scrolling]
+history = 0
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+
+# [shell]
+# args = ["--command=tmux"]
+# program = "fish"
+
